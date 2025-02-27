@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
- .container {
+   .container {
             display: grid;
             grid-template-columns: repeat(40, 20px);
             grid-template-rows: repeat(20, 20px);
@@ -12,8 +11,4 @@
             height: 20px;
             background-color: #ddd;
             transition: background-color 1s ease;
-        }
-        .square:hover {
-            background-color: #3498db;
-            transition: none;
         }
